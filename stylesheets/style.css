@@ -1,18 +1,33 @@
 
-
+footer {
+  height: 60px;
+  background-color: rgb(32, 32, 32);
+  margin-bottom: 0px;
+}
 
 .titulo1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 225px;
+  margin: 270px;
 }
 
 .titulo2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+
+}
+
+.titulo3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+
 
 }
 
@@ -44,13 +59,40 @@
 
 }
 
+.background {
+  margin-top: 60px;
+  background-image: url("../images/fondo.png");
+  height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 
 
 .menu {
+  background-color: white;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  position: sticky;
+  top: 0;
+  height: 45px;
+  z-index: 2;
+
+}
+
+.blanco {
+  height: 230px;
+
+}
+
+
+
+.cabecera {
+  margin: 50px;
 }
 
 .h3 {
@@ -64,6 +106,27 @@
   padding: 100px;
   align-items: center;
   margin: -20px;
+
+
+}
+
+.lapiz {
+  font-size: 30px;
+  text-align: center;
+
+}
+.descripcion{
+  align-items: center;
+  justify-content: center;
+  margin-inline-start: 37%;
+}
+.h4 {
+  font-family: Barlow, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: black;
+  text-align: left;
+  align-items: center;
 
 
 }
@@ -160,10 +223,23 @@
   color: black;
   flex-direction: row;
   justify-content: space-between;
-  padding: 120px;
+  padding: 99px;
   display: inline;
 
 }
 
 
-.
+
+.cuentamealgo {
+  text-align: center;
+
+}
+
+.cuenta {
+    margin-inline-start: 37%;
+    margin-bottom: -10px;
+}
+
+.email {
+  margin-top: -30px;
+}
